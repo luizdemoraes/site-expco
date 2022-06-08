@@ -1,0 +1,23 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        "sans": ["halyard-display", ...defaultTheme.fontFamily.sans]
+      },
+      colors: {
+        "exp-blue": "#009cde",
+        "exp-yellow": "#FFBE00",
+        "exp-black": "#000000",
+        "exp-white": "#ffffff"
+      },
+      container: {
+        "center": true,
+        "padding": "2rem"
+      }
+    },
+  },
+  plugins: [],
+}
