@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .exp-button-nav {
+    @apply bg-exp-white;
+    @apply text-exp-black;
+    @apply py-2 pt-1 px-4;
+    @apply border-solid;
+    @apply border-2;
+    @apply border-exp-black;
+    @apply rounded-full;
+    @apply hover:bg-exp-black;
+    @apply hover:text-exp-white;
+    @apply transition-colors;
+  }
+
+  .exp-button-outline {
+    @apply inline-block;
+    @apply text-exp-white;
+    @apply py-2 pt-1 px-6;
+    @apply border-solid;
+    @apply border-2;
+    @apply border-exp-white;
+    @apply rounded-full;
+    @apply hover:bg-exp-white;
+    @apply hover:text-exp-blue;
+    @apply text-2xl;
+    @apply shadow-lg;
+    @apply transition-colors;
+  }
+}

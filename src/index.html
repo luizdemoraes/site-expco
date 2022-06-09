@@ -8,43 +8,97 @@
   <link href="/dist/output.css" rel="stylesheet">
   <title>Exp.Co - Marketing e Design</title>
 </head>
-<body>
-  <nav class="bg-white p-6 fixed top-0 left-0 right-0">
+<body class="antialiased pt-[76px]">
+  <nav class="bg-white p-6 fixed top-0 left-0 right-0 z-50">
     <div class="container flex justify-between text-lg">
       <a href="#" class="flex items-end"><img src="../assets/expco-logo-azul.png" alt="Exp.Co" class="h-6"></a>
       <ul class="flex space-x-8">
-        <li><a href="#" class="text-exp-blue no-underline hover:underline">Home</a></li>
-        <li><a href="#" class="no-underline hover:underline">Serviços</a></li>
-        <li><a href="#" class="no-underline hover:underline">Portfolio</a></li>
-        <li><a href="#" class="no-underline hover:underline">Contato</a></li>
-        <li><a href="#" class="no-underline hover:underline">Orçamento</a></li>
+        <li><a href="#" class="exp-button-nav">Orçamentos</a></li>
+        <li>
+          <a href="#" class="h-2">
+            <svg width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_3_17)">
+              <path d="M10.7849 22.3681L30.823 22.3681C31.7399 22.3681 32.482 23.1102 32.482 24.0271C32.482 24.944 31.7399 25.6861 30.823 25.6861L10.7849 25.6861C9.86796 25.6861 9.12589 24.944 9.12589 24.0271C9.12589 23.1105 9.868 22.3681 10.7846 22.3681L10.7849 22.3681Z" fill="black"/>
+              <path d="M2.141 11.2544L30.823 11.2544C31.7399 11.2544 32.482 11.9965 32.482 12.9134C32.482 13.8303 31.7399 14.5724 30.823 14.5724L2.141 14.5721C1.22407 14.5721 0.481996 13.83 0.481996 12.9131C0.482301 11.9965 1.22441 11.2544 2.141 11.2544L2.141 11.2544Z" fill="black"/>
+              <path d="M10.7849 0.140607L30.823 0.140608C31.7399 0.140608 32.482 0.882719 32.482 1.79961C32.482 2.7165 31.7399 3.45862 30.823 3.45862L10.7849 3.45862C9.86796 3.45862 9.12589 2.7165 9.12589 1.79961C9.12589 0.882717 9.868 0.140607 10.7846 0.140607L10.7849 0.140607Z" fill="black"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_3_17">
+              <rect width="32" height="25.5455" fill="white" transform="translate(32.482 25.6861) rotate(-180)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
       </ul>
     </div>
   </nav>
-  <header class="bg-exp-blue py-40 pt-56">
-    <div class="container">
-      <h1 class="text-8xl text-white">Somos experts </br> na arte de gerar </br> leads.</h1>
+  <header class="bg-[url('../assets/hero-background.jpg')] bg-cover bg-no-repeat bg-fixed bg-right">
+    <div class="container grid grid-cols-2 gap-4">
+      <div class="py-40">
+        <h1 class="text-7xl text-white max-w-lg">Somos experts na arte de gerar <span class="font-display">leads.</span></h1>
+        <a class="mt-20 exp-button-outline" href="#">Fale com a gente</a>
+      </div>
     </div>
   </header>
-  <section class="bg-exp-white py-40">
-    <div class="container">
-      <p class="text-7xl max-w-4xl">
-        Nosso propósito é ajudar grandes, médios e pequenos negócios a escalarem suas vendas com estratégias e ações de marketing.
+  <section class="bg-exp-black">
+    <div class="grid grid-cols-2">
+      <div class="container pl-16 py-40">
+        <!-- <h2 class="text-md mb-20 opacity-30 tracking-[0.4em]">PROPÓSITO</h2> -->
+        <p class="text-5xl text-exp-white max-w-4xl">
+          Nosso <span class="font-display">propósito</span> é ajudar grandes, médios e pequenos negócios a escalarem suas vendas com estratégias e ações de <span class="font-display">marketing.</span>
+        </p>
+      </div>
+      <div class="bg-exp-blue flex justify-center items-end">
+        <img src="../assets/loudspeaker.png" alt="Marketing">
+      </div>
+    </div>
+  </section>
+  <section class="bg-exp-black">
+    <div class="grid grid-cols-2">
+      <div class="bg-exp-blue flex justify-center items-center">
+        <img class="max-w-md" src="../assets/dartboard.png" alt="Marketing">
+      </div>
+      <div class="container px-16 py-40">
+        <!-- <h2 class="text-md mb-20 opacity-30 tracking-[0.4em]">FERRAMENTAS</h2> -->
+        <p class="text-5xl text-exp-white">
+          Marketing Digital, Design Gráfico, Sites e Sistemas Web são as ferramentas que utilizamos para fazer com que seus objetivos sejam <span class="font-display">alcançados</span>.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="bg-exp-white">
+    <div class="container py-40">
+      <p class="text-5xl text-exp-black text-center">
+        E a nossa satisfação é ver você ter <span class="font-display">orgulho</span> da sua marca.
       </p>
     </div>
   </section>
-  <section class="bg-exp-yellow py-40">
-    <div class="container">
-      <p class="text-7xl max-w-3xl">
-        Marketing Digital, Design Gráfico, Sites e Sistemas Web são as ferramentas que utilizamos para fazer com que seus objetivos sejam alcançados.
-      </p>
-    </div>
-  </section>
-  <section class="bg-exp-black py-40">
-    <div class="container">
-      <p class="text-7xl text-white max-w-3xl">
-        Nossa satisfação é ver você ter orgulho da sua marca.
-      </p>
+  <section class="bg-exp-yellow">
+    <div class="container py-20">
+      <h1 class="font-display text-black text-5xl text-center">Serviços</h1>
+      <ul class="grid grid-cols-2 grid-rows-2 gap-6 mt-20">
+        <li class="p-6">
+          <div class="flex space-x-4">
+            <img width="24" src="../assets/instagram.svg" alt="instagram" class="mb-4">
+            <img width="24" src="../assets/linkedin.svg" alt="linkedin" class="mb-4">
+          </div>
+          <h2 class="text-3xl font-medium mb-4">Social Media</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur odit dolorum, nihil earum cum nulla, commodi ipsa magni ipsam exercitationem, a distinctio impedit voluptatem vel quaerat? Quisquam, dignissimos nisi.</p>
+        </li>
+        <li class="p-6 col-1">
+          <h2 class="text-3xl font-medium mb-4">Tráfego Pago</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur odit dolorum, nihil earum cum nulla, commodi ipsa magni ipsam exercitationem, a distinctio impedit voluptatem vel quaerat? Quisquam, dignissimos nisi.</p>
+        </li>
+        <li class="p-6">
+          <h2 class="text-3xl font-medium mb-4">Design Gráfico</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur odit dolorum, nihil earum cum nulla, commodi ipsa magni ipsam exercitationem, a distinctio impedit voluptatem vel quaerat? Quisquam, dignissimos nisi.</p>
+        </li>
+        <li class="p-6">
+          <h2 class="text-3xl font-medium mb-4">Landing Pages e Sites</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur odit dolorum, nihil earum cum nulla, commodi ipsa magni ipsam exercitationem, a distinctio impedit voluptatem vel quaerat? Quisquam, dignissimos nisi.</p>
+        </li>
+      </ul>
     </div>
   </section>
 </body>

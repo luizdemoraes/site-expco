@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "sans": ["halyard-display", ...defaultTheme.fontFamily.sans]
+        "sans": ["halyard-display", ...defaultTheme.fontFamily.sans],
+        "display": ["lust-didone", "sans"]
       },
       colors: {
         "exp-blue": "#009cde",
@@ -16,6 +17,9 @@ module.exports = {
       container: {
         "center": true,
         "padding": "2rem"
+      },
+      backgroundImage: {
+        "hero-image": "url(/assets/socios header.jpg)"
       }
     },
   },
