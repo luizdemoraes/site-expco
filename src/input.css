@@ -30,4 +30,16 @@
     @apply shadow-lg;
     @apply transition-colors;
   }
+
+  .exp-button-outline-black {
+    @apply exp-button-outline;
+    @apply border-exp-black;
+    @apply text-exp-black;
+    @apply hover:text-exp-blue;
+    @apply hover:bg-exp-black;
+  }
+
+  .exp-nav-link {
+    @apply hover:text-exp-blue;
+  }
 }

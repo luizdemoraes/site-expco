@@ -20,6 +20,9 @@ module.exports = {
       },
       backgroundImage: {
         "hero-image": "url(/assets/socios header.jpg)"
+      },
+      animation: {
+        'spin-slow': 'spin 30s linear infinite',
       }
     },
   },

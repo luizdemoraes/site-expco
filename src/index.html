@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +13,13 @@
     <div class="container flex justify-between text-lg">
       <a href="#" class="flex items-end"><img src="../assets/expco-logo-azul.png" alt="Exp.Co" class="h-6"></a>
       <ul class="flex space-x-8">
-        <li><a href="#" class="exp-button-nav">Orçamentos</a></li>
-        <li>
+        <li><a href="#inicio" class="exp-nav-link">Início</a></li>
+        <li><a href="#servicos" class="exp-nav-link">Serviços</a></li>
+        <li><a href="#clientes" class="exp-nav-link">Clientes</a></li>
+        <li><a href="#contato" class="exp-nav-link">Contato</a></li>
+        <li><a href="#" class="exp-button-nav">WhatsApp</a></li>
+        <!-- Botão do menu -->
+        <!-- <li>
           <a href="#" class="h-2">
             <svg width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_3_17)">
@@ -29,12 +34,12 @@
               </defs>
             </svg>
           </a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
  
-  <header class="bg-[url('../assets/hero-background.jpg')] bg-cover bg-no-repeat bg-fixed bg-right">
+  <header id="inicio" class="bg-[url('../assets/hero-background.jpg')] bg-cover bg-no-repeat bg-fixed bg-right">
     <div class="container grid grid-cols-2 gap-4">
       <div class="py-40">
         <h1 class="text-7xl text-white max-w-lg leading-[4,5rem]">Somos experts na arte de gerar <span class="font-display">leads.</span></h1>
@@ -78,7 +83,7 @@
     </div>
   </section>
   
-  <section class="bg-exp-yellow">
+  <section id="servicos" class="bg-exp-yellow">
     <div class="container py-20">
       <h1 class="font-display text-black text-5xl text-center">Serviços</h1>
       <ul class="grid grid-cols-2 grid-rows-2 gap-6 mt-20">
@@ -114,10 +119,87 @@
     </div>
   </section>
 
-  <section class="bg-exp-white">
+  <section id="clientes" class="bg-exp-white">
     <div class="container py-20">
       <h1 class="font-display text-black text-5xl text-center">Clientes</h1>
+      <div class="grid grid-cols-5 grid-rows-2 gap-x-5 items-center justify-center mt-10">
+        <img src="../assets/clientes-portinho.png" alt="Portinho" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-ohaagua.png" alt="Oh a Água" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-novo.png" alt="Partido Novo" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-borboletario.png" alt="Borboletário de São Paulo" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-shopping.png" alt="Shopping Matriz" class="max-w-[100px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-interage.png" alt="Interage Office" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-ipanema.png" alt="Ipanema Harbor" class="max-w-[100px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-myhealth.png" alt="MyHealth 245" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-fap.png" alt="FAP Fisioterapia" class="max-w-[180px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-beup.png" alt="be.up seguros" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+      </div>
     </div>
   </section>
+
+  <section class="bg-exp-blue text-white">
+    <div class="grid grid-cols-2">
+      <div class="container px-16 py-[4rem]">
+          <h2 class="text-3xl font-medium mb-4">Junte-se aos nossos clientes!</h2>
+          <p class="max-w-md font-light tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur architecto saepe, nobis, culpa maxime impedit tempora fugiat minima ipsam ullam facilis illo expedita quasi, possimus sit ipsum quis numquam dolor?</p>
+          <a class="mt-6 exp-button-outline" href="#">Quero ser cliente</a>
+      </div>
+      <div class="bg-exp-black flex justify-center items-center">
+        <img src="../assets/imagem-clientes.png" alt="Seja cliente" class="max-w-[500px]">
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="bg-exp-white py-20">
+    <div class="container max-w-lg">
+      <h1 class="font-display text-center text-6xl">Contato</h1>
+      <p class="mt-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque provident, aliquid eaque enim blanditiis ducimus aut, fugiat totam sunt nesciunt necessitatibus saepe dolores quidem?</p>
+      <div class="flex mx-auto space-x-4 mt-8">
+        <a href="#" class="exp-button-outline-black w-full text-center">WhatsApp</a>
+        <a href="#" class="exp-button-outline-black w-full text-center">E-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-exp-yellow p-40 bg-[url('../assets/foto-pes.jpg')] bg-no-repeat bg-cover bg-center">
+    <p class="text-exp-white text-center text-5xl font-light">"Vá sempre <span class="font-display">além</span> do esperado."</p>
+    <p class="text-exp-white text-center mt-4 tracking-wide"><b>LARRY PAGE</b> — Cofundador da Google.</p>
+    <!-- <span class="block text-center opacity-40">Cofundador da Google.</span> -->
+  </section>
+
+  <footer class="bg-exp-black py-20">
+    <div class="container flex justify-start space-x-20">
+      <!-- Logo animado -->
+      <div class="relative w-[160px] h-[160px]">
+        <div class="animate-spin-slow opacity-70">
+          <img src="../assets/exp-rounded.png" alt="" srcset="">
+        </div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <img src="../assets/exp-symbol.png" alt="">
+        </div>
+      </div>
+      <div>
+        <p class="text-exp-white max-w-sm tracking-wide font-light">
+          A Exp.Co é uma agência de Marketing Digital e Design fundada em 2019 com o propósito de ajudar pequenos, médios e grandes negócios na geração de leads através de estratégias de marketing alinhadas ao bom design.
+        </p>
+        <ul class="flex space-x-2 mt-4">
+          <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="#"><img src="../assets/icon-instagram.png" alt="Exp.Co Instagram"></a></li>
+          <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="#"><img src="../assets/icon-linkedin.png" alt="Exp.Co Linkedin"></a></li>
+          <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="#"><img src="../assets/icon-whatsapp.png" alt="Exp.Co WhatsApp"></a></li>
+          <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="#"><img src="../assets/icon-behance.png" alt="Exp.Co Behance"></a></li>
+        </ul>
+      </div>
+      <div class="ml-10 text-exp-white flex flex-col content-between -mt-2">
+        <p class="text-6xl font-light opacity-30 mb-4">RJ</p>
+        <p class="leading-[1.1rem]">Av. Pres. Wilson 165, 501 <br/> Cinelândia <br/> Rio de Janeiro / RJ</p>
+        <a href="mailto:gestao@expcompany.com.br" class="leading-[1.1rem] opacity-50 font-light tracking-wide mt-2">gestao@expcompany.com.br</a>
+      </div>
+      <div class="text-exp-white flex flex-col content-between -mt-2">
+        <p class="text-6xl font-light opacity-30 mb-4">SP</p>
+        <p class="leading-[1.1rem]">Av. Paulista 2439, 11º A. <br/> Bela Vista <br/> São Paulo / SP</p>
+        <a href="mailto:gestao@expcompany.com.br" class="leading-[1.1rem] opacity-50 font-light tracking-wide mt-2">gestao@expcompany.com.br</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
