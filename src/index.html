@@ -8,82 +8,88 @@
   <link href="/dist/output.css" rel="stylesheet">
   <title>Exp.Co - Marketing e Design</title>
 </head>
-<body class="antialiased pt-[76px]">
-  <nav class="bg-white p-6 fixed top-0 left-0 right-0 z-50">
-    <div class="container flex justify-between text-lg">
-      <a href="#" class="flex items-end"><img src="../assets/expco-logo-azul.png" alt="Exp.Co" class="h-6"></a>
-      <ul class="flex space-x-8">
+<body class="antialiased pt-[72px]">
+  <nav class="bg-exp-white py-4 fixed top-0 left-0 right-0 z-50">
+    <div class="container flex justify-between items-center text-lg">
+      <a href="#" class="pt-[0.4rem]"><img src="../assets/expco-logo-azul.png" alt="Exp.Co" class="h-6"></a>
+      <ul class="hidden md:flex space-x-8">
         <li><a href="#inicio" class="exp-nav-link">Início</a></li>
         <li><a href="#servicos" class="exp-nav-link">Serviços</a></li>
         <li><a href="#clientes" class="exp-nav-link">Clientes</a></li>
         <li><a href="#contato" class="exp-nav-link">Contato</a></li>
-        <li><a href="#" class="exp-button-nav">WhatsApp</a></li>
-        <!-- Botão do menu -->
-        <!-- <li>
-          <a href="#" class="h-2">
-            <svg width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_3_17)">
-              <path d="M10.7849 22.3681L30.823 22.3681C31.7399 22.3681 32.482 23.1102 32.482 24.0271C32.482 24.944 31.7399 25.6861 30.823 25.6861L10.7849 25.6861C9.86796 25.6861 9.12589 24.944 9.12589 24.0271C9.12589 23.1105 9.868 22.3681 10.7846 22.3681L10.7849 22.3681Z" fill="black"/>
-              <path d="M2.141 11.2544L30.823 11.2544C31.7399 11.2544 32.482 11.9965 32.482 12.9134C32.482 13.8303 31.7399 14.5724 30.823 14.5724L2.141 14.5721C1.22407 14.5721 0.481996 13.83 0.481996 12.9131C0.482301 11.9965 1.22441 11.2544 2.141 11.2544L2.141 11.2544Z" fill="black"/>
-              <path d="M10.7849 0.140607L30.823 0.140608C31.7399 0.140608 32.482 0.882719 32.482 1.79961C32.482 2.7165 31.7399 3.45862 30.823 3.45862L10.7849 3.45862C9.86796 3.45862 9.12589 2.7165 9.12589 1.79961C9.12589 0.882717 9.868 0.140607 10.7846 0.140607L10.7849 0.140607Z" fill="black"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_3_17">
-              <rect width="32" height="25.5455" fill="white" transform="translate(32.482 25.6861) rotate(-180)"/>
-              </clipPath>
-              </defs>
-            </svg>
-          </a>
-        </li> -->
       </ul>
+      <a href="#" class="exp-button-nav">WhatsApp</a>
     </div>
   </nav>
  
-  <header id="inicio" class="bg-[url('../assets/hero-background.jpg')] bg-cover bg-no-repeat bg-fixed bg-right">
-    <div class="container grid grid-cols-2 gap-4">
-      <div class="py-40">
-        <h1 class="text-7xl text-white max-w-lg leading-[4,5rem]">Somos experts na arte de gerar <span class="font-display">leads.</span></h1>
-        <a class="mt-20 exp-button-outline" href="#">Fale com a gente</a>
-      </div>
+  <header id="inicio" class="bg-[url('../assets/hero-background.png')] bg-cover bg-no-repeat bg-fixed bg-right">
+    <div class="container pt-40 pb-20">
+      <h1 id="enteringText" class="text-center font-light text-5xl text-white leading-[4,5rem]">
+        Somos experts na arte de gerar <span class="font-display">leads.</span>
+      </h1>
+      <a href="#" class="block max-w-[200px] mt-20 my-0 mx-auto">
+        <div class="flex flex-col justify-center animate-bounce">
+          <img src="../assets/arrow-down.png" class="max-w-[32px] mt-0 mx-auto" alt="" srcset="">
+        </div>
+      </a>
     </div>
   </header>
 
-  <section class="bg-exp-black">
-    <div class="grid grid-cols-2">
-      <div class="container pl-16 py-40">
-        <!-- <h2 class="text-md mb-20 opacity-30 tracking-[0.4em]">PROPÓSITO</h2> -->
-        <p class="text-5xl text-exp-white max-w-4xl leading-[3.5rem]">
-          Nosso <span class="font-display">propósito</span> é ajudar grandes, médios e pequenos negócios a escalarem suas vendas com estratégias e ações de <span class="font-display">marketing.</span>
-        </p>
-      </div>
-      <div class="bg-exp-blue flex justify-center items-end">
-        <img src="../assets/loudspeaker.png" alt="Marketing">
-      </div>
-    </div>
-  </section>
-  
-  <section class="bg-exp-black">
-    <div class="grid grid-cols-2">
-      <div class="bg-exp-blue flex justify-center items-center">
-        <img class="max-w-md" src="../assets/dartboard.png" alt="Marketing">
-      </div>
-      <div class="container px-16 py-40">
-        <!-- <h2 class="text-md mb-20 opacity-30 tracking-[0.4em]">FERRAMENTAS</h2> -->
-        <p class="text-5xl text-exp-white leading-[3.5rem]">
-          Marketing Digital, Design Gráfico, Sites e Sistemas Web são as ferramentas que utilizamos para fazer com que seus objetivos sejam <span class="font-display">alcançados</span>.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="bg-exp-white">
-    <div class="container py-40">
-      <p class="text-5xl text-exp-black text-center">
-        E a nossa satisfação é ver você ter <span class="font-display">orgulho</span> da sua marca.
+  <!-- propósito -->
+  <section class="container">
+    <div class="flex justify-center items-center py-20">
+      <img class="h-sm" src="../assets/loudspeaker.png" alt="Marketing">
+      <p class="ml-10 text-4xl max-w-md leading-[2.5rem]">
+        Nosso <span class="font-display">propósito</span> é ajudar grandes, médios e pequenos negócios a escalarem suas vendas com estratégias e ações de <span class="font-display">marketing.</span>
       </p>
     </div>
   </section>
   
-  <section id="servicos" class="bg-exp-yellow">
+  <!-- ferramentas -->
+  <section class="bg-exp-black">
+    <div class="container flex justify-center items-center py-20">
+      <p id="enteringText" class="mr-10 text-4xl max-w-md text-exp-white leading-[2.5rem]">
+        Marketing Digital, Design Gráfico, Sites e Aplicativos são as ferramentas que utilizamos para fazer com que seus objetivos sejam <span class="font-display">alcançados</span>.
+      </p>
+      <img class="max-w-[350px]" src="../assets/dartboard.png" alt="Marketing">
+    </div>
+  </section>
+
+  <!-- números -->
+  <section class="bg-exp-yellow py-40">
+    <div class="container flex justify-center items-center mb-20">
+      <div class="p-6 bg-exp-black rounded-lg text-exp-white">
+        <p class="font-medium text-2xl mb-10 max-w-[1.2rem] leading-[1.5rem]">Principais nichos atendidos:</p>
+        <ul>
+          <li>Saúde</li>
+          <li>Lazer</li>
+          <li>Produtos alimentícios</li>
+          <li>Locação de imóveis</li>
+          <li>Consultoria</li>
+          <li>Indústrias</li>
+        </ul>
+      </div>
+      <div class="ml-10">
+        <div class="flex space-x-2 align-center">
+          <p class="text-2xl">+ de</p><p id="counterUpClientes" class="font-display text-6xl mt-[-10px]">0</p><p class="text-2xl">clientes atendidos</p>
+        </div>
+        <hr class="border-exp-black mb-10 mt-6"/>
+        <div class="flex space-x-2 align-center">
+          <p class="text-2xl">+ de</p><p id="counterUpLeads" class="font-display text-6xl mt-[-10px]">10.000</p><p class="text-2xl">leads gerados</p>
+        </div>
+        <hr class="border-exp-black mb-10 mt-6"/>
+        <div class="flex space-x-2 align-center">
+          <p class="text-2xl">+ de</p><p id="counterUpReais" class="font-display text-6xl mt-[-10px]">R$ 700.000,00</p><p class="text-2xl">convertidos</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <a href="#" class="exp-button-outline-black">Peça seu orçamento agora</a>
+    </div>
+  </section>
+
+  <!-- serviços -->
+  <section id="servicos" class="border-b-2 border-solid border-exp-blue">
     <div class="container py-20">
       <h1 class="font-display text-black text-5xl text-center">Serviços</h1>
       <ul class="grid grid-cols-2 grid-rows-2 gap-6 mt-20">
@@ -119,24 +125,26 @@
     </div>
   </section>
 
+  <!-- clientes -->
   <section id="clientes" class="bg-exp-white">
     <div class="container py-20">
       <h1 class="font-display text-black text-5xl text-center">Clientes</h1>
       <div class="grid grid-cols-5 grid-rows-2 gap-x-5 items-center justify-center mt-10">
-        <img src="../assets/clientes-portinho.png" alt="Portinho" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-ohaagua.png" alt="Oh a Água" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-novo.png" alt="Partido Novo" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-borboletario.png" alt="Borboletário de São Paulo" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-shopping.png" alt="Shopping Matriz" class="max-w-[100px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-interage.png" alt="Interage Office" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-ipanema.png" alt="Ipanema Harbor" class="max-w-[100px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-myhealth.png" alt="MyHealth 245" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-fap.png" alt="FAP Fisioterapia" class="max-w-[180px] mx-auto grayscale hover:grayscale-0 transition">
-        <img src="../assets/clientes-beup.png" alt="be.up seguros" class="max-w-[150px] mx-auto grayscale hover:grayscale-0 transition">
+        <img src="../assets/clientes-portinho.png" alt="Portinho" class="max-w-[150px] mx-auto">
+        <img src="../assets/clientes-ohaagua.png" alt="Oh a Água" class="max-w-[150px] mx-auto">
+        <img src="../assets/clientes-novo.png" alt="Partido Novo" class="max-w-[150px] mx-auto">
+        <img src="../assets/clientes-borboletario.png" alt="Borboletário de São Paulo" class="max-w-[150px] mx-auto">
+        <img src="../assets/clientes-shopping.png" alt="Shopping Matriz" class="max-w-[100px] mx-auto">
+        <img src="../assets/clientes-interage.png" alt="Interage Office" class="max-w-[150px] mx-auto">
+        <img src="../assets/clientes-ipanema.png" alt="Ipanema Harbor" class="max-w-[100px] mx-auto">
+        <img src="../assets/clientes-myhealth.png" alt="MyHealth 245" class="max-w-[150px] mx-auto">
+        <img src="../assets/clientes-fap.png" alt="FAP Fisioterapia" class="max-w-[180px] mx-auto">
+        <img src="../assets/clientes-beup.png" alt="be.up seguros" class="max-w-[150px] mx-auto">
       </div>
     </div>
   </section>
 
+  <!-- chamada clientes -->
   <section class="bg-exp-blue text-white">
     <div class="grid grid-cols-2">
       <div class="container px-16 py-[4rem]">
@@ -150,6 +158,7 @@
     </div>
   </section>
 
+  <!-- contato -->
   <section id="contato" class="bg-exp-white py-20">
     <div class="container max-w-lg">
       <h1 class="font-display text-center text-6xl">Contato</h1>
@@ -167,11 +176,12 @@
     <!-- <span class="block text-center opacity-40">Cofundador da Google.</span> -->
   </section>
 
+  <!-- footer -->
   <footer class="bg-exp-black py-20">
     <div class="container flex justify-start space-x-20">
       <!-- Logo animado -->
       <div class="relative w-[160px] h-[160px]">
-        <div class="animate-spin-slow opacity-70">
+        <div class="animate-spin-slow opacity-70 w-[160px] h-[160px]">
           <img src="../assets/exp-rounded.png" alt="" srcset="">
         </div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
@@ -201,5 +211,9 @@
       </div>
     </div>
   </footer>
+
+
+
+  <script src="./script.js" type="module"></script>
 </body>
 </html>
