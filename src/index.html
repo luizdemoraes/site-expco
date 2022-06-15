@@ -4,11 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/ezc4ksl.css">
+  
+  <!-- simplebar -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+  
+  <!-- css -->
   <link href="./output.css" rel="stylesheet">
+
   <title>Exp.Co - Marketing e Design</title>
 </head>
 <body class="antialiased pt-[72px]">
+  <div data-simplebar>
   <nav class="bg-exp-white py-4 fixed top-0 left-0 right-0 z-50">
     <div class="container flex justify-between items-center text-lg">
       <a href="#" class="pt-[0.4rem]"><img src="./assets/expco-logo-azul.png" alt="Exp.Co" class="h-6"></a>
@@ -24,7 +34,7 @@
  
   <header id="inicio" class="bg-[url('./assets/hero-background.png')] bg-cover bg-no-repeat bg-fixed bg-right">
     <div class="container pt-40 pb-20">
-      <h1 id="enteringText" class="text-center font-light text-5xl text-white leading-[4,5rem]">
+      <h1 class="text-center font-light text-4xl lg:text-5xl text-white leading-[4,5rem]">
         Somos experts na arte de gerar <span class="font-display">leads.</span>
       </h1>
       <a href="#proposito" class="block max-w-[200px] mt-20 my-0 mx-auto">
@@ -37,9 +47,9 @@
 
   <!-- propósito -->
   <section id="proposito" class="container">
-    <div class="flex justify-center items-center py-20">
-      <img class="h-sm" src="./assets/loudspeaker.png" alt="Marketing">
-      <p class="ml-10 text-4xl max-w-md leading-[2.5rem]">
+    <div class="flex flex-col sm:flex-row justify-center items-center py-20">
+      <img class="md:h-[400px] h-[200px]" src="./assets/loudspeaker.png" alt="Marketing">
+      <p class="sm:text-left text-center sm:ml-10 md:ml-6 ml-0 sm:mt-0 mt-6 md:text-4xl text-2xl max-w-md md:leading-[2.5rem] leading-[2rem]">
         Nosso <span class="font-display">propósito</span> é ajudar grandes, médios e pequenos negócios a escalarem suas vendas com estratégias e ações de <span class="font-display">marketing.</span>
       </p>
     </div>
@@ -47,30 +57,30 @@
   
   <!-- ferramentas -->
   <section class="bg-exp-black">
-    <div class="container flex justify-center items-center py-20">
-      <p id="enteringText" class="mr-10 text-4xl max-w-md text-exp-white leading-[2.5rem]">
+    <div class="container flex justify-center items-center flex-col-reverse md:flex-row py-20">
+      <p class="md:mr-10 mt-6 sm:text-4xl md:text-3xl text-2xl md:text-left text-center max-w-md text-exp-white md:leading-[2.5rem] leading-[2rem]">
         Marketing Digital, Design Gráfico, Sites e Aplicativos são as ferramentas que utilizamos para fazer com que seus objetivos sejam <span class="font-display">alcançados</span>.
       </p>
-      <img class="max-w-[350px]" src="./assets/dartboard.png" alt="Marketing">
+      <img class="sm:max-w-[300px] max-w-[200px]" src="./assets/dartboard.png" alt="Marketing">
     </div>
   </section>
 
   <!-- números -->
   <section class="bg-exp-yellow py-40">
-    <div class="container flex justify-center items-center mb-20">
-      <div class="p-6 bg-exp-black rounded-lg text-exp-white">
-        <p class="font-medium text-2xl mb-10 max-w-[1.2rem] leading-[1.5rem]">Principais nichos atendidos:</p>
-        <ul>
-          <li>Saúde</li>
-          <li>Lazer</li>
-          <li>Produtos alimentícios</li>
-          <li>Locação de imóveis</li>
-          <li>Consultoria</li>
-          <li>Engenharia</li>
-          <li>Indústrias</li>
+    <div class="container flex items-center lg:flex-row flex-col-reverse mb-20">
+      <div class="flex flex-col p-6 lg:max-w-[230px] w-full lg:mt-0 mt-10 bg-exp-black rounded-lg text-exp-white">
+        <p class="font-medium text-2xl lg:mb-10 mb-4 max-w-sm leading-[1.5rem]">Principais nichos atendidos:</p>
+        <ul class="flex lg:flex-col flex-row lg:space-y-2 space-x-1 overflow-x-auto">
+          <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Saúde</li>
+          <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Lazer</li>
+          <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Produtos alimentícios</li>
+          <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Locação de imóveis</li>
+          <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Consultoria</li>
+          <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Engenharia</li>
+          <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Indústrias</li>
         </ul>
       </div>
-      <div class="ml-10">
+      <div class="lg:ml-10 ml-0 w-full">
         <div class="flex space-x-2 align-center">
           <p class="text-2xl">+ de</p><p id="counterUpClientes" class="font-display text-6xl mt-[-10px]">100</p><p class="text-2xl">clientes atendidos</p>
         </div>
@@ -217,6 +227,7 @@
       </div>
     </div>
   </footer>
+  </div>
 
   <script src="./script.js" type="module"></script>
 </body>

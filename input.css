@@ -44,3 +44,7 @@
     @apply hover:text-exp-blue;
   }
 }
+
+.simplebar-scrollbar::before {
+  background-color: red !important;
+}
