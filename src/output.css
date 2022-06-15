@@ -726,6 +726,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -748,6 +752,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[160px\] {
   height: 160px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
+.max-h-\[200px\] {
+  max-height: 200px;
 }
 
 .w-full {
@@ -860,6 +876,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-spin-slow {
   -webkit-animation: spin 30s linear infinite;
           animation: spin 30s linear infinite;
+}
+
+.auto-rows-min {
+  grid-auto-rows: -webkit-min-content;
+  grid-auto-rows: min-content;
 }
 
 .grid-cols-2 {
@@ -1139,6 +1160,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-\[1\.1rem\] {
   line-height: 1.1rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .tracking-wide {
