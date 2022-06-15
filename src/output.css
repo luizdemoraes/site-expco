@@ -994,18 +994,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 156 222 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'assets\/hero-background\.png\'\)\] {
-  background-image: url('assets/hero-background.png');
-}
-
-.bg-\[url\(\'assets\/foto-pes\.jpg\'\)\] {
-  background-image: url('assets/foto-pes.jpg');
-}
-
-.bg-\[url\(\'\.\/assets\/hero-background\.png\'\)\] {
-  background-image: url('./assets/hero-background.png');
-}
-
 .bg-\[url\(\'\.\.\/assets\/hero-background\.png\'\)\] {
   background-image: url('../assets/hero-background.png');
 }
