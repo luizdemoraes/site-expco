@@ -43,8 +43,11 @@
   .exp-nav-link {
     @apply hover:text-exp-blue;
   }
-}
 
-.simplebar-scrollbar::before {
-  background-color: red !important;
+  .exp-hero-background {
+    @apply bg-exp-blue;
+    @apply bg-cover;
+    @apply bg-no-repeat;
+    @apply bg-right-top;
+  }
 }
