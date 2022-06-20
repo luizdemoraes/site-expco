@@ -1,4 +1,4 @@
-import { CountUp } from '../countUp.min.js'
+import { CountUp } from './lib/countUp.min.js'
 
 const numberClientes = document.getElementById('counterUpClientes');
 const numberLeads = document.getElementById('counterUpLeads');
