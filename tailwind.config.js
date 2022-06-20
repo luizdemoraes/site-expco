@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      screens: {
+        'md': '769px'
+      },
       fontFamily: {
         "sans": ["halyard-display", ...defaultTheme.fontFamily.sans],
         "display": ["lust-didone", "sans"]

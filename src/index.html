@@ -8,17 +8,12 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/ezc4ksl.css">
   
-  <!-- simplebar -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
-  
   <!-- css -->
   <link href="./output.css" rel="stylesheet">
 
   <title>Exp.Co - Marketing e Design</title>
 </head>
 <body class="antialiased pt-[72px]">
-  <div data-simplebar>
   <nav class="bg-exp-white py-4 fixed top-0 left-0 right-0 z-50">
     <div class="container flex justify-between items-center text-lg">
       <a href="#" class="pt-[0.4rem]"><img src="./assets/expco-logo-azul.png" alt="Exp.Co" class="h-6"></a>
@@ -32,7 +27,7 @@
     </div>
   </nav>
  
-  <header id="inicio" class="bg-[url('./assets/hero-background.png')] bg-cover bg-no-repeat bg-fixed bg-right">
+  <header id="inicio" class="bg-[url('./assets/hero-background.png')] bg-cover bg-no-repeat bg-fixed bg-right-top">
     <div class="container pt-40 pb-20">
       <h1 class="text-center font-light text-4xl lg:text-5xl text-white leading-[4,5rem]">
         Somos experts na arte de gerar <span class="font-display">leads.</span>
@@ -58,10 +53,10 @@
   <!-- ferramentas -->
   <section class="bg-exp-black">
     <div class="container flex justify-center items-center flex-col-reverse md:flex-row py-20">
-      <p class="md:mr-10 mt-6 sm:text-4xl md:text-3xl text-2xl md:text-left text-center max-w-md text-exp-white md:leading-[2.5rem] leading-[2rem]">
+      <p class="md:mr-10 mt-6 md:text-4xl text-2xl md:text-left text-center max-w-md text-exp-white md:leading-[2.5rem] leading-[2rem]">
         Marketing Digital, Design Gráfico, Sites e Aplicativos são as ferramentas que utilizamos para fazer com que seus objetivos sejam <span class="font-display">alcançados</span>.
       </p>
-      <img class="sm:max-w-[300px] max-w-[200px]" src="./assets/dartboard.png" alt="Marketing">
+      <img class="md:max-w-[300px] max-w-[200px]" src="./assets/dartboard.png" alt="Marketing">
     </div>
   </section>
 
@@ -69,7 +64,7 @@
   <section class="bg-exp-yellow py-40">
     <div class="container flex items-center lg:flex-row flex-col-reverse mb-20">
       <div class="flex flex-col p-6 lg:max-w-[230px] w-full lg:mt-0 mt-10 bg-exp-black rounded-lg text-exp-white">
-        <p class="font-medium text-2xl lg:mb-10 mb-4 max-w-sm leading-[1.5rem]">Principais nichos atendidos:</p>
+        <p class="font-medium text-lg sm:text-2xl lg:mb-10 mb-4 max-w-sm leading-[1.5rem]">Principais nichos atendidos:</p>
         <ul class="flex lg:flex-col flex-row lg:space-y-2 space-x-1 overflow-x-auto">
           <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Saúde</li>
           <li class="whitespace-nowrap md:w-auto w-max py-1 px-4 border-2 border-[#1a1a1a] border-solid rounded-full">Lazer</li>
@@ -81,16 +76,16 @@
         </ul>
       </div>
       <div class="lg:ml-10 ml-0 w-full">
-        <div class="flex space-x-2 align-center">
-          <p class="text-2xl">+ de</p><p id="counterUpClientes" class="font-display text-6xl mt-[-10px]">100</p><p class="text-2xl">clientes atendidos</p>
+        <div class="flex flex-col sm:flex-row justify-center text-center">
+          <p class="text-2xl">+ de</p><p id="counterUpClientes" class="font-display text-3xl sm:text-5xl xl:text-7xl mt-2 sm:mt-0 sm:mx-2 xl:-mt-3">100</p><p class="text-2xl">clientes atendidos</p>
         </div>
-        <hr class="border-exp-black mb-10 mt-6"/>
-        <div class="flex space-x-2 align-center">
-          <p class="text-2xl">+ de</p><p id="counterUpLeads" class="font-display text-6xl mt-[-10px]">10.000</p><p class="text-2xl">leads gerados</p>
+        <hr class="border-exp-black mb-6 mt-6 sm:mb-10"/>
+        <div class="flex flex-col sm:flex-row justify-center text-center">
+          <p class="text-2xl">+ de</p><p id="counterUpLeads" class="font-display text-3xl sm:text-5xl xl:text-7xl mt-2 sm:mt-0 sm:mx-2 xl:-mt-3">10.000</p><p class="text-2xl">leads gerados</p>
         </div>
-        <hr class="border-exp-black mb-10 mt-6"/>
-        <div class="flex space-x-2 align-center">
-          <p class="text-2xl">+ de</p><p id="counterUpReais" class="font-display text-6xl mt-[-10px]">R$ 700.000,00</p><p class="text-2xl">convertidos</p>
+        <hr class="border-exp-black mb-6 mt-6 sm:mb-10"/>
+        <div class="flex flex-col sm:flex-row justify-center text-center">
+          <p class="text-2xl">+ de</p><p id="counterUpReais" class="font-display text-3xl sm:text-5xl xl:text-7xl mt-2 sm:mt-0 sm:mx-2 xl:-mt-3">R$ 700.000,00</p><p class="text-2xl">convertidos</p>
         </div>
       </div>
     </div>
@@ -103,7 +98,7 @@
   <section id="servicos">
     <div class="container py-20">
       <h1 class="font-display text-black text-5xl text-center">Serviços</h1>
-      <ul class="grid grid-cols-2 grid-rows-2 auto-rows-min gap-6 mt-20">
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-8 mt-20">
         <li class="border-2 border-exp-black">
           <div class="bg-exp-black flex items-center content-center space-x-4 p-4">
             <img width="32" src="./assets/share.svg" alt="share">
@@ -140,7 +135,7 @@
   <section id="clientes" class="bg-exp-white">
     <div class="container py-20">
       <h1 class="font-display text-black text-5xl text-center">Alguns clientes</h1>
-      <div class="grid grid-cols-5 grid-rows-2 gap-x-5 items-center justify-center mt-10">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 grid-rows-2 gap-x-5 items-center justify-center mt-10">
         <img src="./assets/clientes-portinho.png" alt="Portinho" class="max-w-[150px] mx-auto">
         <img src="./assets/clientes-ohaagua.png" alt="Oh a Água" class="max-w-[150px] mx-auto">
         <img src="./assets/clientes-novo.png" alt="Partido Novo" class="max-w-[150px] mx-auto">
@@ -150,23 +145,23 @@
         <img src="./assets/clientes-ipanema.png" alt="Ipanema Harbor" class="max-w-[100px] mx-auto">
         <img src="./assets/clientes-myhealth.png" alt="MyHealth 245" class="max-w-[150px] mx-auto">
         <img src="./assets/clientes-fap.png" alt="FAP Fisioterapia" class="max-w-[180px] mx-auto">
-        <img src="./assets/clientes-beup.png" alt="be.up seguros" class="max-w-[150px] mx-auto">
+        <img src="./assets/clientes-beup.png" alt="be.up seguros" class="max-w-[150px] mx-auto block sm:hidden md:block">
       </div>
     </div>
   </section>
 
   <!-- chamada clientes -->
   <section class="bg-exp-blue text-white">
-    <div class="grid grid-cols-2">
-      <div class="container px-16 py-[4rem]">
-          <h2 class="text-3xl font-medium mb-4">Junte-se aos nossos clientes!</h2>
-          <p class="max-w-md font-light tracking-wide">
-            Chegou a hora de mudar a forma de apresentar seu negócio e sua marca! Ficamos felizes que você tenha entendido nosso propósito.
-          </p>
-          <a class="mt-6 exp-button-outline" href="#contato">Quero ser cliente</a>
+    <div class="grid sm:grid-cols-2">
+      <div class="container md:px-[4rem] px-[2rem] py-[4rem] sm:order-first order-last sm:text-left text-center">
+        <h2 class="text-3xl font-medium mb-4">Junte-se aos nossos clientes!</h2>
+        <p class="max-w-md font-light tracking-wide sm:mx-0 mx-auto">
+          Chegou a hora de mudar a forma de apresentar seu negócio e sua marca! Ficamos felizes que você tenha entendido nosso propósito.
+        </p>
+        <a class="mt-6 exp-button-outline" href="#contato">Quero ser cliente</a>
       </div>
-      <div class="bg-exp-black flex justify-center items-center">
-        <img src="./assets/imagem-clientes.png" alt="Seja cliente" class="h-full max-h-[300px]">
+      <div class="bg-exp-black flex justify-center items-center px-16 py-4">
+        <img src="./assets/imagem-clientes.png" alt="Seja cliente" class="block w-full sm:max-w-[400px] max-w-[300px]">
       </div>
     </div>
   </section>
@@ -185,49 +180,51 @@
     </div>
   </section>
 
-  <section class="bg-exp-yellow p-40 bg-[url('./assets/foto-pes.jpg')] bg-no-repeat bg-cover bg-center">
-    <p class="text-exp-white text-center text-5xl font-light">"Vá sempre <span class="font-display">além</span> do esperado."</p>
+  <section class="bg-exp-yellow py-20 md:p-40 px-10 bg-[url('./assets/foto-pes.jpg')] bg-no-repeat bg-cover bg-center">
+    <p class="text-exp-white text-center text-4xl md:text-5xl font-light">"Vá sempre <span class="font-display">além</span> do esperado."</p>
     <p class="text-exp-white text-center mt-4 tracking-wide"><b>LARRY PAGE</b> — Cofundador da Google.</p>
   </section>
 
   <!-- footer -->
   <footer class="bg-exp-black py-20">
-    <div class="container flex justify-start space-x-20">
-      <!-- Logo animado -->
-      <div class="relative w-[160px] h-[160px]">
-        <div class="animate-spin-slow opacity-70 w-[160px] h-[160px]">
-          <img src="./assets/exp-rounded.png" alt="" srcset="">
-        </div>
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <img src="./assets/exp-symbol.png" alt="">
-        </div>
-      </div>
-      <div>
-        <p class="text-exp-white max-w-sm tracking-wide font-light">
+    <div class="container flex md:flex-row flex-col justify-center md:space-x-20 space-x-0">
+      <div class="self-center">
+        <p class="text-exp-white max-w-sm tracking-wide font-light md:text-left text-center">
           A Exp.Co é uma agência de Marketing Digital e Design fundada em 2019 com o propósito de ajudar pequenos, médios e grandes negócios na geração de leads através de estratégias de marketing alinhadas ao bom design.
         </p>
-        <ul class="flex space-x-2 mt-4">
+        <ul class="flex md:justify-start justify-center space-x-2 mt-8">
           <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="https://instagram.com/exp_company/" target="_blank" rel="noopener"><img src="./assets/icon-instagram.png" alt="Exp.Co Instagram"></a></li>
           <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="https://linkedin.com/company/expco-marketing/" target="_blank" rel="noopener"><img src="./assets/icon-linkedin.png" alt="Exp.Co Linkedin"></a></li>
           <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="https://api.whatsapp.com/send?phone=5521971849769&text=Quero%20ser%20cliente%20Exp.Co!" target="_blank" rel="noopener"><img src="./assets/icon-whatsapp.png" alt="Exp.Co WhatsApp"></a></li>
           <li class="transition-opacity opacity-100 hover:opacity-80 border-2 border-[#606060] rounded-full"><a href="https://behance.net/expco" target="_blank" rel="noopener"><img src="./assets/icon-behance.png" alt="Exp.Co Behance"></a></li>
         </ul>
       </div>
-      <div class="ml-10 text-exp-white flex flex-col content-between -mt-2">
-        <p class="text-6xl font-light opacity-30 mb-4">RJ</p>
-        <p class="leading-[1.1rem]">Av. Pres. Wilson 165, 501 <br/> Cinelândia <br/> Rio de Janeiro / RJ</p>
-        <a href="mailto:gestao@expcompany.com.br" class="opacity-50 font-light tracking-wide mt-2">gestao@expcompany.com.br</a>
-        <a href="tel:+5521971849769" class="opacity-50 font-light tracking-wide">21 97184-9769</a>
+      <div class="flex sm:flex-row flex-col sm:space-x-10 space-x-0 justify-center md:mt-0 mt-20">
+        <div class="text-exp-white flex flex-col content-between sm:mx-0 mx-auto sm:text-left text-center">
+          <p class="text-6xl font-light opacity-30 mb-4">RJ</p>
+          <p class="leading-[1.1rem]">Av. Pres. Wilson 165, 501 <br/> Cinelândia <br/> Rio de Janeiro / RJ</p>
+          <a href="mailto:gestao@expcompany.com.br" class="opacity-50 font-light tracking-wide mt-2">gestao@expcompany.com.br</a>
+          <a href="tel:+5521971849769" class="opacity-50 font-light tracking-wide">21 97184-9769</a>
+        </div>
+        <div class="text-exp-white flex flex-col content-between sm:mx-0 mx-auto sm:mt-0 mt-10 sm:text-left text-center">
+          <p class="text-6xl font-light opacity-30 mb-4">SP</p>
+          <p class="leading-[1.1rem]">Av. Paulista 2439, 11º A. <br/> Bela Vista <br/> São Paulo / SP</p>
+          <a href="mailto:gestao@expcompany.com.br" class="opacity-50 font-light tracking-wide mt-2">gestao@expcompany.com.br</a>
+          <a href="tel:+5521971849769" class="opacity-50 font-light tracking-wide">21 97184-9769</a>
+        </div>
       </div>
-      <div class="text-exp-white flex flex-col content-between -mt-2">
-        <p class="text-6xl font-light opacity-30 mb-4">SP</p>
-        <p class="leading-[1.1rem]">Av. Paulista 2439, 11º A. <br/> Bela Vista <br/> São Paulo / SP</p>
-        <a href="mailto:gestao@expcompany.com.br" class="opacity-50 font-light tracking-wide mt-2">gestao@expcompany.com.br</a>
-        <a href="tel:+5521971849769" class="opacity-50 font-light tracking-wide">21 97184-9769</a>
+    </div>
+    
+    <!-- Logo animado -->
+    <div class="relative w-[140px] h-[140px] mt-32 mx-auto">
+      <div class="animate-spin-slow opacity-70 w-[140px] h-[140px]">
+        <img src="./assets/exp-rounded.png" alt="" srcset="">
+      </div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <img src="./assets/exp-symbol.png" alt="">
       </div>
     </div>
   </footer>
-  </div>
 
   <script src="./script.js" type="module"></script>
 </body>
