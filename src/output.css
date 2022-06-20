@@ -1001,19 +1001,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-style: solid;
 }
 
-.border-\[\#444444\] {
+.border-\[\#353535\] {
   --tw-border-opacity: 1;
-  border-color: rgb(68 68 68 / var(--tw-border-opacity));
+  border-color: rgb(53 53 53 / var(--tw-border-opacity));
 }
 
 .border-exp-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-\[\#353535\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(53 53 53 / var(--tw-border-opacity));
 }
 
 .bg-exp-white {
