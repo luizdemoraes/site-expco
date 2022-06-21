@@ -24,7 +24,7 @@
   <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
   
-  <!-- Fonts -->
+  <!-- fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/ezc4ksl.css">
   
   <!-- css -->
@@ -41,6 +41,25 @@
 
     gtag('config', 'G-8VR7X7VPJN');
   </script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1088348728438903');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1088348728438903&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
 </head>
 <body class="antialiased pt-[72px]">
   <nav class="bg-exp-white py-4 fixed top-0 left-0 right-0 z-50">
@@ -52,7 +71,7 @@
         <li><a href="#clientes" class="exp-nav-link">Clientes</a></li>
         <li><a href="#contato" class="exp-nav-link">Contato</a></li>
       </ul>
-      <a href="https://api.whatsapp.com/send?phone=5521971849769&text=Quero%20ser%20cliente%20Exp.Co!" target="_blank" rel="noopener" class="exp-button-nav">WhatsApp</a>
+      <a id="contactButton" href="https://api.whatsapp.com/send?phone=5521971849769&text=Quero%20ser%20cliente%20Exp.Co!" target="_blank" rel="noopener" class="exp-button-nav">WhatsApp</a>
     </div>
   </nav>
  
@@ -256,5 +275,11 @@
   </footer>
 
   <script src="./script.js" type="module"></script>
+
+  <script type="text/javascript">
+    document.getElementById('contactButton').addEventListener('click', function() {
+      fbq('track', 'Contact')
+    }, false);
+  </script>
 </body>
 </html>
